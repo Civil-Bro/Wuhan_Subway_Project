@@ -1,0 +1,4 @@
+src有subway文件内有所有解决该问题类
+src中framepkg是图形界面系统
+总的main文件是MainFrame在framepkg中
+subway.txt你要重定位到你的目录下，不改位置肯定报错，运行前保证你的环境在jdk1.8以上
