@@ -28,11 +28,11 @@ public class FareCalculator {
     }
 
     public static double calculateDayPassFare(String type) {
-        return switch (type) {
-            case "1日票" -> 18;
-            case "3日票" -> 45;
-            case "7日票" -> 90;
-            default -> throw new IllegalArgumentException("票种类型不合法");
-        };
+        switch (type) {
+            case "1日票": return 18;
+            case "3日票": return 45;
+            case "7日票": return 90;
+            default : throw new IllegalArgumentException("票种类型不合法");
+        }
     }
 }
